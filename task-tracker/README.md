@@ -52,7 +52,7 @@ ID    Title                     Priority   Due          Status
 1     Buy groceries             high       2025-06-02   pending
 ```
 
-File structure
+## File structure
 ```bash
 task-tracker/
 ├── tasks.py      ← the whole application (single file)
