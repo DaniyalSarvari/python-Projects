@@ -29,6 +29,7 @@ pip install Pillow
 ```
 
 ##Usage
+
 ### Basic conversion
 ```bash
 python converter.py image.jpg
@@ -36,14 +37,17 @@ python converter.py image.jpg
 This will print the ASCII art in your terminal and save it as image_ascii.txt.
 
 ##Full options
+
 ```bash
 python converter.py photo.jpg -w 150 -c detailed --invert --color green -o art.txt
 ```
 ##Skip terminal preview (save only)
+
 ```bash
 python converter.py poster.png --no-preview -o poster_ascii.txt
 ```
 ##Help
+
 ```bash
 python converter.py --help
 ```
@@ -71,6 +75,7 @@ python converter.py --help
 ## Examples
 
 ### 1. Standard conversion
+
 ```bash
 python converter.py cat.jpg
 ```
@@ -81,12 +86,15 @@ Saved ASCII art to cat_ascii.txt
 @@@@@@@@@@@@@@@%#*+=--::.....   
 ...
 ```
+
 ##2. Detailed, inverted, colored
+
 ```bash
 python converter.py mountain.jpg -w 200 -c detailed --invert --color cyan
-``
+```
 
 ##3. Binary art for a retro feel
+
 ```bash
 python converter.py face.png -c binary -w 80 -o face_binary.txt --no-preview
 ```
@@ -105,6 +113,7 @@ Load the image and handle errors gracefully.
 - Output to terminal and/or file.
 
 ##File Structure
+
 ```text
 ascii-art/
 ├── converter.py   ← Main application (single-file, no dependencies beyond Pillow)
@@ -113,4 +122,5 @@ ascii-art/
 
 
 ##License
+
 MIT — do whatever you want, just don't sue me.
