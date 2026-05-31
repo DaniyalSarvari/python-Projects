@@ -28,9 +28,10 @@ Supports multiple character sets, brightness inversion, colored terminal preview
 ```bash
 pip install Pillow
 ```
+
 ## Usage
 
-## Basic conversion
+### Basic conversion
 ```bash
 python converter.py image.jpg
 ```
