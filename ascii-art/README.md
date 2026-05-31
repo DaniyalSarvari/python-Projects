@@ -1,5 +1,4 @@
-markdown
-# 🎨 ASCII Art Converter
+#  ASCII Art Converter
 
 Professional command-line tool to turn any image into stunning ASCII art.  
 Supports multiple character sets, brightness inversion, colored terminal preview, and flexible output options.
@@ -9,13 +8,13 @@ Supports multiple character sets, brightness inversion, colored terminal preview
 
 ## Features
 
-- 🖼️ **Image to Text**: Convert JPEG, PNG, BMP, and more to ASCII art
-- 🎭 **5 Character Sets**: `standard`, `detailed`, `blocks`, `minimal`, `binary`
-- ↔️ **Adjustable Width**: Control output width while preserving aspect ratio
-- 🌓 **Invert Brightness**: Dark backgrounds become light, and vice versa
-- 🌈 **Terminal Colors**: Preview your art in red, green, blue, cyan, and more
-- 💾 **Automatic Saving**: Output saved as a `.txt` file next to the source image
-- ⚡ **Fast & Lightweight**: Only requires Pillow, processes images instantly
+-  **Image to Text**: Convert JPEG, PNG, BMP, and more to ASCII art
+-  **5 Character Sets**: `standard`, `detailed`, `blocks`, `minimal`, `binary`
+-  **Adjustable Width**: Control output width while preserving aspect ratio
+-  **Invert Brightness**: Dark backgrounds become light, and vice versa
+-  **Terminal Colors**: Preview your art in red, green, blue, cyan, and more
+-  **Automatic Saving**: Output saved as a `.txt` file next to the source image
+-  **Fast & Lightweight**: Only requires Pillow, processes images instantly
 
 ## Installation
 
