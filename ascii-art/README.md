@@ -24,19 +24,19 @@ Supports multiple character sets, brightness inversion, colored terminal preview
 - pip
 
 ### Install Pillow
+
 ```bash
 pip install Pillow
 ```
+## Usage
 
-##Usage
-
-### Basic conversion
+## Basic conversion
 ```bash
 python converter.py image.jpg
 ```
 This will print the ASCII art in your terminal and save it as image_ascii.txt.
 
-##Full options
+## Full options
 
 ```bash
 python converter.py photo.jpg -w 150 -c detailed --invert --color green -o art.txt
@@ -46,7 +46,7 @@ python converter.py photo.jpg -w 150 -c detailed --invert --color green -o art.t
 ```bash
 python converter.py poster.png --no-preview -o poster_ascii.txt
 ```
-##Help
+## Help
 
 ```bash
 python converter.py --help
@@ -87,19 +87,19 @@ Saved ASCII art to cat_ascii.txt
 ...
 ```
 
-##2. Detailed, inverted, colored
+## 2. Detailed, inverted, colored
 
 ```bash
 python converter.py mountain.jpg -w 200 -c detailed --invert --color cyan
 ```
 
-##3. Binary art for a retro feel
+## 3. Binary art for a retro feel
 
 ```bash
 python converter.py face.png -c binary -w 80 -o face_binary.txt --no-preview
 ```
 
-##How It Works
+## How It Works
 Load the image and handle errors gracefully.
 
 - Resize preserving aspect ratio (corrected for monospace font dimensions).
@@ -112,7 +112,7 @@ Load the image and handle errors gracefully.
 
 - Output to terminal and/or file.
 
-##File Structure
+## File Structure
 
 ```text
 ascii-art/
@@ -121,6 +121,6 @@ ascii-art/
 ```
 
 
-##License
+## License
 
 MIT — do whatever you want, just don't sue me.
