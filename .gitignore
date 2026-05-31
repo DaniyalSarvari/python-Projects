@@ -41,3 +41,7 @@ Thumbs.db
 *.webp
 *.svg
 *.ico
+
+# Vault encrypted data
+salt.bin
+vault.enc
