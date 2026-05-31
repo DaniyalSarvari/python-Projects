@@ -1,4 +1,4 @@
-# ✅ Task Tracker
+# Task Tracker
 
 A fast, keyboard-driven task manager that lives in your terminal. No mouse, no nonsense. Built with Python and SQLite — your data stays local forever.
 
@@ -53,12 +53,12 @@ ID    Title                     Priority   Due          Status
 ```
 
 File structure
-
+```bash
 task-tracker/
 ├── tasks.py      ← the whole application (single file)
 ├── tasks.db      ← SQLite database (auto-created, not committed)
 └── README.md
-
+```
 
 ## Why SQLite?
 It's embedded, serverless, and rock-solid. No config, no connection strings. Just a file.
