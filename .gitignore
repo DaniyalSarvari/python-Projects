@@ -45,3 +45,8 @@ Thumbs.db
 # Vault encrypted data
 salt.bin
 vault.enc
+
+# Generated files
+ascii-art/art.txt
+task-tracker/tasks.db
+*.txt
